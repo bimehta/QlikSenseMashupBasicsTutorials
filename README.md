@@ -1,0 +1,2 @@
+This is simply a place to keep the code samples that will be used in a series of tutorials about the basics of using the Mash-up APIs in Qlik Sense.
+Each folder in the code samples folder covers a basic function of the library.  Videos will be posted soon explaining each one.
