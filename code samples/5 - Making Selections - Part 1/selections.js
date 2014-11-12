@@ -94,10 +94,9 @@ require( ["js/qlik"], function ( qlik ) {
                             console.info(selArray);
                         });
                         $("#submitThis").click(function() {
-                            app.field('YOUR FIELD NAME').selectValues(selArray, true, true);
+                            app.field('YOUR FIELD NAME').selectValues(selArray, false, true);
                             selArray = [];
                         });
-                        */
                         */
                     });
 
