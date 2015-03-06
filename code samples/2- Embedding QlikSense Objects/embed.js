@@ -4,7 +4,7 @@
  * @owner Enter you name here (xxx)
  */
 /*
- *    Fill in host and port for QlikView engine
+ *    Fill in host and port for Qlik engine
  */
 var config = {
 	host: window.location.hostname,
@@ -21,14 +21,14 @@ require( ["js/qlik"], function ( qlik ) {
 		alert( error.message );
 	} );
 
-	//callbacks
-	//open app and get objects
-	var app = qlik.openApp("[APP NAME]", config);
+	//callbacks -- inserted here --
+	//open apps -- inserted here --
+  	var app = qlik.openApp("[APP NAME].qvf", config);
+	//get objects -- inserted here --
 	$(".qvobject").each(function() {
 		var qvid = $(this).data("qvid");
 		app.getObject(this, qvid);
 	});
-	/*AUTOGEN START*/
-		/*AUTOGEN END*/
+	//create cubes and lists -- inserted here --
 
 } );
